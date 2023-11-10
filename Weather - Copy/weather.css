@@ -1,0 +1,152 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css";
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    background-image: linear-gradient(130deg,   #73faab, rgb(84, 136, 184));
+    font-feature-settings: "blwm";
+}
+
+.container{
+    flex: 1;
+    width: 100%;
+    max-width: 30rem;
+    /* min-height: 30rem; */
+
+    margin: 5rem auto;
+    padding: 5rem auto;
+    box-shadow: 2rem 2rem 2rem rgba(0,0,0,0.2);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    background-color: rgb(240, 248, 255 , 0.3);
+    
+}
+
+.todisplaynone{
+    display: none;
+}
+
+
+.location_icon{
+    position: absolute;
+    top: 7.3rem;
+    padding: 2rem auto;
+    opacity: 90%;
+    padding: .5rem;
+}
+
+.search_bar{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem auto;
+    margin: 2rem auto;
+}
+
+.search_button{   
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255,0.7);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_icon:hover{
+   opacity: 150%;
+   background-color: rgb(16, 113, 199);
+   transform: scale(105%);
+   transition:.2s;
+}
+
+.search_bar input{
+    padding: 0 2rem 0  3rem;
+    width: 20rem;
+    height: 3rem;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: large;
+    
+}
+
+.search_bar input::-webkit-search-cancel-button{
+    display: none;
+}
+
+
+.weather_info{
+    display: flex;
+    gap: 5rem;
+    margin: 0 2rem 0 2rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.weather_info_elements{
+    /* font-family: 'General Sans', sans-serif; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    font-size: 1rem;
+}
+
+.weather_info_elements .city_name{
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.weather_info_elements .tempeature{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.weather_info_elements img{
+    width: 15rem;
+    padding-top:0;
+}
+
+.other_info{
+    display: flex;
+    justify-content: space-around;
+    gap: 8rem;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+
+
+.col-1 img{
+    padding:.5rem;
+    width: 3rem;
+}
+
+.col-1 .col-1-info{
+    font-size: 1.3rem;
+    color:black;
+    opacity: .8;
+    font-weight: lighter;
+    padding: 1rem auto;
+    margin-bottom: 1rem;
+} 
+
+
+.col-1 .col-1-info span{
+    font-weight: 600;
+}
